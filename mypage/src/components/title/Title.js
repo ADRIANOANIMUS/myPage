@@ -1,8 +1,8 @@
 import './Title.css'
 
-function Title () {
+function Title (props) {
 return(
-    <Title>Title</Title>
+    <h1 className="Title">{props.children}</h1>
 )
 }
 
